@@ -1,5 +1,5 @@
 # counter_state_management
-Flutter state management sample.
+Flutter 状态管理demo大全.
 
 The sample counter app is implemented in several ways to show how to use different state management options.
 
