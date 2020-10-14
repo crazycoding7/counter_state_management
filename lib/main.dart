@@ -1,3 +1,4 @@
+import 'package:counterstatemanagement/custom_test_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -52,6 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               'You have pushed the button this many times:',
             ),
+            CustomTestWidget(),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.display1,
