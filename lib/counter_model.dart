@@ -5,9 +5,11 @@ class CounterModel {
 
   void increment() {
     counter.value++;
+    counter.notifyListeners();
   }
 
   void decrement() {
     counter.value--;
+    counter.notifyListeners();
   }
 }
